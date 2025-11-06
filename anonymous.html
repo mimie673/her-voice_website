@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonymous Report - Her Voice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">HER VOICE</div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="home.html#about">About</a></li>
+                <li><a href="home.html#chatbot">Chat Box</a></li>
+                <li><a href="home.html#anonymous">Anonymous Help</a></li>
+                <li><a href="home.html#contact">Contact</a></li>
+                <li><a href="login.html">Log Out</a></li>
+            </ul>
+        </nav>
+
+        <section class="section">
+            <h2>Anonymous GBV Reporting</h2>
+            <p>If you're facing GBV, you can seek help without revealing your identity. Our anonymous reporting system protects your privacy while connecting you to support services like counseling, legal advice, or emergency aid. Share details securely—no names required—and get guidance on next steps, such as protection orders or safe shelters. Your safety comes first; reports are handled confidentially by trained professionals.</p>
+            
+            <form action="#" method="post"> <!-- Replace # with actual backend endpoint if implemented -->
+                <label for="incident">Describe the Incident (Required):</label>
+                <textarea id="incident" name="incident" rows="8" required placeholder="Please provide details about what happened..."></textarea>
+                
+                <label for="location">Location (Optional):</label>
+                <input type="text" id="location" name="location" placeholder="e.g., City or Area">
+                
+                <label for="date">Date of Incident (Optional):</label>
+                <input type="date" id="date" name="date">
+                
+                <button type="submit" class="action-btn">Submit Anonymous Report</button>
+            </form>
+        </section>
+
+        <footer>
+            &copy; 2025 Her Voice. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
